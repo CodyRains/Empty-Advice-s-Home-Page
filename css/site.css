@@ -1,0 +1,65 @@
+
+
+section {
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+    section .row {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    section .row .col {
+        padding: 1rem;
+        flex-grow: 1;
+        
+    }
+}
+
+.EA {
+    color: beige;
+}
+
+.EAbg {
+    background-color: black;
+    color: beige;
+    background-image: url(images/osfm.jpeg);
+}
+
+.section-alt {
+    background-image: url(images/pond.jpeg);
+}
+
+.contactMe {
+    background-color: beige;
+}
+
+header {
+    color: black;
+    background-color: beige;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homeNav {
+    color: black;
+    background-color: beige;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+li {
+    padding: 2px;
+    display: inline;
+    margin: 5px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
