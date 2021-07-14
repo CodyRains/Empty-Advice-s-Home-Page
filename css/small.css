@@ -44,6 +44,7 @@ button#hamburgerBtn {
 footer {
     background-image: url(images/osfm.jpeg);
     font-size: 1rem;
+    background-position: bottom;
 }
 
 footer h2 {

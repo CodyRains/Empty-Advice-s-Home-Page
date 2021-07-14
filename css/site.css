@@ -22,17 +22,20 @@ section {
 }
 
 .EA {
-    color: beige;
+    color: tan;
 }
 
 .EAbg {
     background-color: black;
-    color: beige;
-    background-image: url(images/osfm.jpeg);
+    color: tan;
+    background-image: url(images/king.PNG);
+    background-position: left;
+    text-align: center;
 }
 
 .section-alt {
     background-image: url(images/pond.jpeg);
+    background-position: center;
 }
 
 .contactMe {
@@ -62,4 +65,10 @@ li {
 
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.merch {
+    color: beige;
+    background-color: black;
+
 }
