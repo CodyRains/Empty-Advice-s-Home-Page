@@ -22,20 +22,20 @@ section {
 }
 
 .EA {
-    color: tan;
+    color: beige;
 }
 
 .EAbg {
     background-color: black;
-    color: tan;
+    color: beige;
     background-image: url(images/king.PNG);
-    background-position: left;
+    background-position: bottom;
     text-align: center;
 }
 
 .section-alt {
     background-image: url(images/pond.jpeg);
-    background-position: center;
+    background-position: top;
 }
 
 .contactMe {
@@ -75,11 +75,14 @@ footer {
 
 .aboutMe {
     text-align: center;
-    
+    font-weight: bold;
+    color: white;
 }
 
 .albums {
     text-align: center;
+    font-weight: bold;
+    color: white;
 }
 
 .SShead {
