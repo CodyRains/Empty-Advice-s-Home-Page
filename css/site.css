@@ -68,9 +68,11 @@ footer {
 }
 
 .merch {
-    color: beige;
-    background-color: black;
-
+    color: white;
+    background-image: url(images/osfm.jpeg);
+    background-position: top;
+    background-size: cover;
+    font-weight: bold;
 }
 
 .aboutMe {
