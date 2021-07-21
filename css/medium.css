@@ -23,3 +23,19 @@
 
 
 }
+
+@media screen and (min-width: 800px) {
+    section .row {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    section .row .col {
+        padding: 1rem;
+        flex-grow: 1;
+        
+    }
+}

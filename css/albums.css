@@ -1,0 +1,41 @@
+/* albums page css */
+
+
+body {
+    background-image: url(images/pond.jpeg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+}
+
+section,
+div {
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 0px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.tic {
+    flex: 1;
+}
+
+.wowy {
+    flex: 1;
+}
