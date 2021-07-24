@@ -26,12 +26,12 @@ section {
 } */
 
 .EA {
-    color: beige;
+    color: rgb(207, 207, 152);
 }
 
 .EAbg {
     background-color: black;
-    color: beige;
+    color: rgb(207, 207, 152);
     background-image: url(images/king.PNG);
     background-position: bottom;
     text-align: center;
@@ -89,6 +89,8 @@ footer h2 {
     background-position: top;
     background-size: cover;
     font-weight: bold;
+    /* padding: 120px; */
+    font-size: large;
 }
 
 .aboutMe {
@@ -97,7 +99,7 @@ footer h2 {
     color: white;
     padding: 20px;
     border-radius: 12px;
-    
+
 }
 
 .albums {

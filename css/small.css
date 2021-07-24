@@ -1,14 +1,18 @@
-
-
 body {
     font-size: 16px;
     font-weight: 300;
 }
 
 /* Grid Rules */
-.row {clear: both;}
+.row {
+    clear: both;
+}
 
-.column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
+.column {
+    float: left;
+    padding: 0 2vw;
+    margin: 0 0 .75rem 0;
+}
 
 .small-12 {
     width: 100%;
@@ -25,6 +29,7 @@ header h1 {
     font-style: italic;
     padding: .5rem 0 0 0;
 }
+
 nav li {
     padding: 0 5px 0 2vw;
     text-align: center;
@@ -44,14 +49,14 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav ul.open {
     display: block;
 }
 
- nav ul { 
+nav ul {
     display: none;
 }
 
@@ -83,4 +88,3 @@ footer h2 {
     display: table;
     clear: both;
 }
-
