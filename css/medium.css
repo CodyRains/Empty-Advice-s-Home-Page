@@ -23,6 +23,9 @@
         float: left;
     }
 
+    .merch {
+        padding: 10%;
+    }
 
 }
 
@@ -40,4 +43,6 @@
         flex-grow: 1;
 
     }
+
+    
 }
