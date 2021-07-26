@@ -20,5 +20,12 @@
         padding: 10%;
     }
 
+    .aboutMe {
+        margin-right: 10%;
+    }
+
+    .albums {
+        margin-left: 10%;
+    }
 
 }
