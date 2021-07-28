@@ -109,6 +109,42 @@ footer h2 {
     padding: 20px;
     border-radius: 12px;
 }
+ 
+/* Show More/Less CSS */
+
+.info {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.expandMoreContent {
+    height: 10px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    position: relative;
+}
+
+.expandMoreContent.expand-active {
+    height: auto;
+    transition: height 0.5s ease-in-out;
+}
+
+.expandMoreHolder {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.btn-expand-more {
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    color: white;
+}
+
+/* Swag Shop CSS */
 
 .SShead {
     text-align: center;
