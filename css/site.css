@@ -37,11 +37,13 @@ section {
     text-align: center;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: contrast(50%);
 }
 
 .section-alt {
     background-image: url(images/pond.jpeg);
     background-position: top;
+    filter: contrast(75%);
 }
 
 .contactMe {
@@ -91,6 +93,7 @@ footer h2 {
     font-weight: bold;
     /* padding: 120px; */
     font-size: large;
+    filter: contrast(75%);
 }
 
 .aboutMe {
@@ -99,7 +102,6 @@ footer h2 {
     color: white;
     padding: 20px;
     border-radius: 12px;
-
 }
 
 .albums {
