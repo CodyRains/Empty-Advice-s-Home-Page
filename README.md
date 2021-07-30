@@ -6,4 +6,4 @@ For my first JavaScript item, I made a contact form that allows the user to emai
 
 For my second CSS item, I used Flexbox to change from a double column on large screens, to a single column on tablet and mobile screens on both my home page (in the about me/albums section) and in the actual albums page. You can go to it by clicking the albums link in my navbar, or by clicking on the link inside the text in the paragraph under albums on the home page.
 
-For my second JavaScript item: I created a working show more/show less button under the albums section of my main page(index.html). If you click 'show more' a description of one of my songs pops up. If you hit 'show less' the description disappears.
+For my second JavaScript item: I created a working show more/show less button under the albums section of my main page. If you click 'show more' a description of one of my songs pops up. If you hit 'show less' the description disappears.

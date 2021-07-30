@@ -37,13 +37,14 @@ section {
     text-align: center;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    filter: contrast(50%);
+    filter: contrast(150%);
 }
 
 .section-alt {
     background-image: url(images/pond.jpeg);
     background-position: top;
-    filter: contrast(75%);
+    opacity: 80%;
+    /* filter: contrast(50%); */
 }
 
 .contactMe {
@@ -86,14 +87,15 @@ footer h2 {
 }
 
 .merch {
-    color: white;
+    color: black;
     background-image: url(images/osfm.jpeg);
     background-position: top;
     background-size: cover;
     font-weight: bold;
     /* padding: 120px; */
     font-size: large;
-    filter: contrast(75%);
+    /* filter: contrast(75%); */
+    opacity: .75;
 }
 
 .aboutMe {
